@@ -4,6 +4,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew update
 brew upgrade
 
+brew tap homebrew/versions
+
 # Install packages
 
 apps=(
@@ -13,6 +15,8 @@ apps=(
 	keybase
   git
   nvm
+  bash
+  bash-completion2
 )
 
 brew install "${apps[@]}"
