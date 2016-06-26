@@ -1,7 +1,7 @@
 [user]
 	name = Matthias Pfeil
 	email = matthias.pfeil@wwu.de
-
+	signingkey = 3C08E7D9
 [core]
   excludesfile = ~/.gitignore_global
 
@@ -57,3 +57,6 @@
 
 [credential]
 	helper = osxkeychain
+
+[commit]
+	gpgsign = true

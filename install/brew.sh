@@ -9,6 +9,8 @@ brew upgrade
 apps=(
 	coreutils
 	moreutils
+	gpg
+	keybase
   git
   nvm
 )
