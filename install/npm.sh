@@ -6,6 +6,7 @@ nvm alias default 6
 packages=(
 	diff-so-fancy
 	statik
+	git-open
 )
 
 npm install -g "${packages[@]}"

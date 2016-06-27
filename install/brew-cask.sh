@@ -6,20 +6,18 @@
 
 # Install native apps
 
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
 brew tap caskroom/versions
 
 apps=(
+	alfred
+	caffeine
 	spectacle
 	dropbox
 	flux
 	iterm2
 	sublime-text
-	google-chrome-canary
-	firefoxnightly
-	webkit-nightly
-	chromium
-	torbrowser
+	google-chrome
 )
 
 brew cask install "${apps[@]}"
