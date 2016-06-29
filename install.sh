@@ -11,6 +11,7 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 mkdir ~/.dotfiles
 ln -sfv "$DOTFILES_DIR/shell/.bash_profile" ~
 ln -sfv "$DOTFILES_DIR/shell/.aliases" ~/.dotfiles
+ln -sfv "$DOTFILES_DIR/shell/.bash_prompt" ~/.dotfiles
 ln -sfv "$DOTFILES_DIR/shell/.functions" ~/.dotfiles
 ln -sfv "$DOTFILES_DIR/shell/.exports" ~/.dotfiles
 ln -sfv "$DOTFILES_DIR/shell/.dircolors" ~/.dotfiles
