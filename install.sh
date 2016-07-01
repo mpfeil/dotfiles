@@ -14,7 +14,6 @@ ln -sfv "$DOTFILES_DIR/shell/.aliases" ~/.dotfiles
 ln -sfv "$DOTFILES_DIR/shell/.bash_prompt" ~/.dotfiles
 ln -sfv "$DOTFILES_DIR/shell/.functions" ~/.dotfiles
 ln -sfv "$DOTFILES_DIR/shell/.exports" ~/.dotfiles
-ln -sfv "$DOTFILES_DIR/shell/.extra" ~/.dotfiles
 ln -sfv "$DOTFILES_DIR/shell/.dircolors" ~/.dotfiles
 
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
