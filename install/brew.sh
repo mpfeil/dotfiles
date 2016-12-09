@@ -1,10 +1,12 @@
 # Install Homebrew
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew update
-brew upgrade
+# Install command-line tools using Homebrew
 
-brew tap homebrew/versions
+# Make sure we’re using the latest Homebrew
+brew update
+
+# Upgrade any already-installed formulae
+brew upgrade
 
 # Install packages
 

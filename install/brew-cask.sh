@@ -1,12 +1,12 @@
 #!/bin/bash
 
-
 # to maintain cask ....
 #     brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup`
 
+
 # Install native apps
 
-brew tap caskroom/cask
+brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
 apps=(
