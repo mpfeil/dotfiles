@@ -5,6 +5,9 @@
 [core]
   excludesfile = ~/.gitignore_global
 
+[branch]
+  autosetupmerge = always
+
 [pager]
 	# insanely beautiful diffs ==> npm install -g diff-so-fancy
 	diff = diff-so-fancy | less --tabs=4 -RFX
