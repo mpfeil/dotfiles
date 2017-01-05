@@ -14,11 +14,13 @@ apps=(
 	coreutils
 	moreutils
 	gpg
+	gpg-agent 
+	pinentry-mac
 	keybase
-  git
-  nvm
-  bash
-  bash-completion2
+  	git
+  	nvm
+  	bash
+  	bash-completion2
 )
 
 brew install "${apps[@]}"
