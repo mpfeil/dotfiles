@@ -43,5 +43,3 @@ shopt -s nocaseglob;
 
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell;
-
-setxkbmap -rules evdev -model evdev -layout us -variant altgr-intl
