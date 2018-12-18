@@ -13,6 +13,7 @@ brew upgrade
 apps=(
 	coreutils
 	moreutils
+	findutils
 	gpg
 	gpg-agent 
 	pinentry-mac
@@ -24,6 +25,9 @@ apps=(
 )
 
 brew install "${apps[@]}"
+
+# GNU `sed`, overwriting the built-in `sed`
+brew install gnu-sed --with-default-names
 
 # Remove outdated versions from the cellar
 brew cleanup

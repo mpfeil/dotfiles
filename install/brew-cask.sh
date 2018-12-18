@@ -13,11 +13,11 @@ apps=(
 	alfred
 	caffeine
 	spectacle
-	dropbox
 	flux
 	iterm2
-	sublime-text
 	google-chrome
+	visual-studio-code
+	gpgtools
 )
 
 brew cask install "${apps[@]}"

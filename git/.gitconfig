@@ -64,4 +64,4 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = gpg1
+	program = /usr/local/bin/gpg
